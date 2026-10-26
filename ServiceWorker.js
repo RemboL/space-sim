@@ -1,15 +1,15 @@
 // Offline and update handling for the Web build (ADR-0003, STORY-009). Unity fills in the template macros at build time.
 // The cache name carries the build time, so every build (code, data or template change) gets its own cache.
 const cachePrefix = "space-sim-";
-const cacheName = cachePrefix + "1.0-2026-10-26T15:17:54.867Z";
+const cacheName = cachePrefix + "1.0-2026-10-26T16:55:00.137Z";
 const pageUrl = "index.html";
 const precacheUrls = [
     pageUrl,
     "manifest.webmanifest",
-    "Build/25247b8b226a811ba3582c4a020e733f.loader.js",
+    "Build/ed9122d3d757aefa272d2c4cc8888962.loader.js",
     "Build/57a7dd781cf8cd25f837ec6dbb5ec82f.framework.js",
-    "Build/e0511c0c8028168cb2611a2e0a2a3ee7.data",
-    "Build/388d9b1b6454ca2e4d33cbddf3f59e67.wasm",
+    "Build/5e4dbb18c2b04309eadcc1722ed0d0b4.data",
+    "Build/ced06002f5fcda13753ea2600fb342da.wasm",
     "TemplateData/style.css",
     "TemplateData/favicon.ico",
     "TemplateData/icons/icon-192.png",
